@@ -15,11 +15,11 @@ function App() {
       <br />
       <Router>
         <Routes>
-          <Route path="/counter" element={<Counter />} />
-          <Route path="/photogallery" element={<MyGallery />} />
-          <Route path="/searchfilter" element={<SearchFilter />} />
-          <Route path='/login' element={<Login />} />
-          <Route path='/button' element={<Buttons />} />
+          <Route path="react/counter" element={<Counter />} />
+          <Route path="react/photogallery" element={<MyGallery />} />
+          <Route path="react/searchfilter" element={<SearchFilter />} />
+          <Route path='react/login' element={<Login />} />
+          <Route path='react/button' element={<Buttons />} />
         </Routes>
       </Router>
     </div>
