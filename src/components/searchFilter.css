@@ -1,0 +1,24 @@
+.list {
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+
+.list-item {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.table-header {
+    text-align: center;
+    background-color: #f2f2f2;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.table {
+    text-align: center;
+}
