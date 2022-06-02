@@ -6,6 +6,8 @@ import Navigation from './components/Navigation';
 import SearchFilter from './components/SearchFilter';
 import Login from './components/Login';
 import Buttons from './components/Buttons';
+import TodoList from './components/todolist/TodoList';
+
 
 function App() {
   return (
@@ -27,6 +29,8 @@ function App() {
           <Link to='/react/login'>Login</Link>
           <Link to='/react/button'>Buttons</Link>
       </Router>
+      <br /><br />
+      <TodoList />
 
     </div>
   );
