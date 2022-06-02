@@ -12,6 +12,12 @@ class Navigation extends Component {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="mr-auto">
+            <Nav.Link href="/react/counter">Counter</Nav.Link>
+            <Nav.Link href="/react/photogallery">Photo Gallery</Nav.Link>
+            <Nav.Link href="/react/searchfilter">Search Filter</Nav.Link>
+            <Nav.Link href="/react/login">Login</Nav.Link>
+            <Nav.Link href="/react/button">Buttons</Nav.Link>
+
           </Nav>
         </Navbar.Collapse>
       </Navbar>
