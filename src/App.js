@@ -6,7 +6,7 @@ import Navigation from './components/Navigation';
 import SearchFilter from './components/SearchFilter';
 import Login from './components/Login';
 import Buttons from './components/Buttons';
-import TodoList from './components/todolist/TodoList';
+/* import TodoList from './components/todolist/TodoList'; */
 
 
 function App() {
@@ -30,7 +30,7 @@ function App() {
           <Link to='/react/button'>Buttons</Link>
       </Router>
       <br /><br />
-      <TodoList />
+{/*       <TodoList /> */}
 
     </div>
   );
