@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Nav, Navbar } from "react-bootstrap";
-import { Navigate } from "react-router-dom";
 
 
 class Navigation extends Component {
@@ -22,7 +21,6 @@ class Navigation extends Component {
           </Nav>
         </Navbar.Collapse>
       </Navbar>
-{/*         <Navigate to ="/react/button">Buttons</Navigate> */}
       </div>
     );
   }
